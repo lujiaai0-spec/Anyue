@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>安岳南线一日旅行攻略</title>
+  <style>
+    :root{color-scheme:light dark;--bg:#f7f7f5;--surface:#fff;--soft:#f0f2f4;--text:#171717;--muted:#646a73;--line:#dfe3e7;--accent:#0a84ff;--accent-soft:#e7f2ff;--green:#0a7f58;--orange:#b95f00;--shadow:0 18px 55px rgba(26,34,44,.12);--r:8px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",sans-serif}
+    @media (prefers-color-scheme:dark){:root{--bg:#101113;--surface:#1a1c1f;--soft:#24272c;--text:#f4f4f2;--muted:#a5abb3;--line:#343841;--accent:#64a8ff;--accent-soft:#14273f;--green:#5bd4a8;--orange:#ffb45f;--shadow:0 18px 55px rgba(0,0,0,.42)}}
+    [data-theme=dark]{--bg:#101113;--surface:#1a1c1f;--soft:#24272c;--text:#f4f4f2;--muted:#a5abb3;--line:#343841;--accent:#64a8ff;--accent-soft:#14273f;--green:#5bd4a8;--orange:#ffb45f;--shadow:0 18px 55px rgba(0,0,0,.42)}
+    [data-theme=light]{--bg:#f7f7f5;--surface:#fff;--soft:#f0f2f4;--text:#171717;--muted:#646a73;--line:#dfe3e7;--accent:#0a84ff;--accent-soft:#e7f2ff;--green:#0a7f58;--orange:#b95f00;--shadow:0 18px 55px rgba(26,34,44,.12)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);letter-spacing:0}body.no-scroll{overflow:hidden}a{color:inherit;text-decoration:none}button{border:0;font:inherit;color:inherit;cursor:pointer}img{display:block;max-width:100%}.app{width:min(100%,760px);margin:0 auto;padding-bottom:calc(32px + env(safe-area-inset-bottom,0px))}
+    .topbar{position:sticky;top:0;z-index:30;padding:10px 14px 12px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 72%,transparent)}.brand-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.eyebrow{margin:0 0 3px;color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase}.brand h1{margin:0;font-size:clamp(22px,7vw,34px);line-height:1.02;font-weight:760}.theme{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border-radius:999px;background:var(--surface);box-shadow:0 8px 22px rgba(0,0,0,.08)}.theme svg{width:19px;height:19px}
+    .nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}.nav::-webkit-scrollbar{display:none}.nav a{flex:0 0 auto;min-width:86px;padding:9px 12px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--muted);font-size:13px;font-weight:720;text-align:center}.nav a.active{color:#fff;border-color:var(--accent);background:var(--accent)}
+    .hero{padding:18px 14px 6px}.hero-media{position:relative;min-height:330px;overflow:hidden;border-radius:var(--r);background:#202326;box-shadow:var(--shadow)}.hero-media img{width:100%;height:100%;min-height:330px;object-fit:cover;filter:saturate(1.05)}.hero-text{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;padding:22px;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.68))}.hero-text h2{max-width:11ch;margin:0;font-size:clamp(36px,13vw,66px);line-height:.94;font-weight:800}.hero-meta{display:flex;flex-wrap:wrap;gap:8px}.hero-meta span{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.18);backdrop-filter:blur(14px);font-size:12px;font-weight:720}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding-top:12px}.stat{min-height:74px;padding:12px 10px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}.stat strong{display:block;margin-bottom:4px;font-size:18px;line-height:1}.stat span{color:var(--muted);font-size:12px;line-height:1.25}
+    main{padding:0 14px}.day{scroll-margin-top:112px;padding-top:22px}.day-head{display:flex;align-items:end;justify-content:space-between;gap:14px;margin-bottom:14px}.day-head h2{margin:0;font-size:26px;line-height:1;font-weight:780}.day-head p{margin:7px 0 0;color:var(--muted);font-size:14px;line-height:1.35}.day-chip{flex:0 0 auto;padding:8px 10px;border-radius:999px;color:var(--accent);background:var(--accent-soft);font-size:12px;font-weight:760}.timeline{position:relative;display:grid;gap:14px;padding-left:22px}.timeline:before{content:"";position:absolute;left:6px;top:6px;bottom:10px;width:2px;border-radius:999px;background:var(--line)}
+    .card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:0 10px 26px rgba(20,28,38,.08)}.card:before{content:"";position:absolute;left:-22px;top:20px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--bg)}.photo-btn{width:100%;padding:0;background:transparent}.photo{width:100%;aspect-ratio:16/10;object-fit:cover;background:var(--soft)}.card-body{padding:14px}.kicker{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}.tag{display:inline-flex;align-items:center;min-width:0;padding:6px 9px;border-radius:999px;color:var(--green);background:color-mix(in srgb,var(--green) 12%,transparent);font-size:12px;line-height:1;font-weight:760;white-space:nowrap}.time{color:var(--muted);font-size:12px;font-weight:720;white-space:nowrap}.title{margin:0 0 8px;font-size:22px;line-height:1.12;font-weight:780}.reason{margin:0;color:var(--muted);font-size:15px;line-height:1.55}.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin:13px 0}.box{min-height:62px;padding:10px;border-radius:var(--r);background:var(--soft)}.box span{display:block;margin-bottom:4px;color:var(--muted);font-size:12px;line-height:1;font-weight:700}.box strong{font-size:15px;line-height:1.2;font-weight:760}.detail{display:grid;grid-template-rows:0fr;transition:grid-template-rows .26s ease}.card.open .detail{grid-template-rows:1fr}.detail-inner{overflow:hidden}.detail-content{padding-top:2px;color:var(--muted);font-size:14px;line-height:1.65}.detail-content p{margin:0 0 10px}.tips{margin:12px 0 0;padding:12px;border-radius:var(--r);color:var(--text);background:color-mix(in srgb,var(--orange) 13%,var(--surface));border:1px solid color-mix(in srgb,var(--orange) 28%,transparent)}.tips strong{display:block;margin-bottom:5px;color:var(--orange);font-size:13px}.actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-top:14px}.link,.expand{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 11px;border-radius:var(--r);font-size:14px;font-weight:760;line-height:1.15;text-align:center}.link{border:1px solid var(--line);background:var(--surface)}.link.primary{border-color:var(--accent);color:#fff;background:var(--accent)}.expand{width:100%;margin-top:10px;color:var(--accent);background:var(--accent-soft)}.expand .less,.card.open .expand .more{display:none}.card.open .expand .less{display:inline}.foot{margin:28px 0 0;padding:18px 14px;color:var(--muted);font-size:13px;line-height:1.55;text-align:center}
+    .lightbox{position:fixed;inset:0;z-index:80;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(0,0,0,.88)}.lightbox.show{display:flex}.lightbox img{width:min(100%,940px);max-height:82vh;object-fit:contain;border-radius:var(--r)}.close{position:fixed;top:max(14px,env(safe-area-inset-top,0px));right:14px;width:42px;height:42px;display:grid;place-items:center;border-radius:999px;color:#fff;background:rgba(255,255,255,.18);backdrop-filter:blur(14px)}
+    @media (min-width:680px){.topbar,.hero,main{padding-left:22px;padding-right:22px}.hero-media,.hero-media img{min-height:420px}.timeline{padding-left:30px}.timeline:before{left:8px}.card:before{left:-28px}.card-body{padding:18px}.title{font-size:26px}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand-row">
+        <div class="brand"><p class="eyebrow">Day 1 Guide</p><h1>安岳石窟南线 · 旅行攻略</h1></div>
+        <button class="theme" type="button" aria-label="切换暗色模式" data-theme-toggle><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 13.2A8.6 8.6 0 0 1 10.8 3 7.4 7.4 0 1 0 21 13.2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <nav class="nav" aria-label="行程目录"><a href="#day-1" class="active">安岳南线</a></nav>
+    </header>
+
+    <section class="hero" aria-label="旅行概览">
+      <div class="hero-media"><img src="images/day1-hero.png" alt="安岳石窟造像"><div class="hero-text"><h2>安岳古佛造像</h2></div></div>
+    </section>
+
+    <main id="itinerary"></main>
+    <p class="foot">安岳南线一日行程。长文资料默认折叠，图片可点击放大，链接按钮可直接打开地图或参考资料。</p>
+  </div>
+
+  <div class="lightbox" data-lightbox aria-hidden="true"><button class="close" type="button" aria-label="关闭图片预览" data-close><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button><img src="" alt="放大的目的地图片" data-lightbox-img></div>
+
+  <script>
+    const itinerary = [
+      { id:"day-1", title:"Day 1 · 安岳南线", subtitle:"成都出发，经县城午餐与酒店调整，下午进入安岳南线石窟参访。", chip:"Stone Carving", places:[
+        {title:"安岳南线", type:"石窟艺术 · 行程主题", time:"Day 1", hideBudget:true, hideStay:true, image:"images/day1-anyue.png", large:"images/day1-anyue.png", reason:"安岳与大足共同承接唐宋之后西南石窟艺术的高峰，是理解川渝佛教造像、三教融合与世情化表达的重要线索。", detail:["数量最多、分布最密、延续最久，中国石窟史的众多『之最』，属于川渝之地的安岳与大足。当石窟艺术于中原寖衰之际，却在西南天府之国延续火种，蔓延全境。","如星星之火，点亮了唐宋时代的安岳、大足。它们融合三教，杂糅诸宗，虽造佛国仙界，更似世情人间。穷工极变，意趣新生，堪称石窟艺术的最后一座殿堂。"], tips:"建议把这张卡片作为 Day 1 的总览阅读；后续具体点位按时间轴逐站展开。", alwaysOpen:true, links:[{label:"引文：【鉴赏】10万佛菩萨——四川安岳古佛造像", url:"https://mp.weixin.qq.com/s/CBWCTkrvYP5zFWYk8rqZjw", primary:true}]},
+        {title:"成都到安岳", type:"交通 · 宋姐的专车", time:"11:30 - 13:30", hideBudget:true, stayLabel:"车程", stay:"约 2 小时", image:"images/traffic.jpg", large:"images/traffic.jpg", reason:"上午从成都出发，预计下午一点半抵达安岳，为午餐、酒店调整和下午石窟参访留出缓冲。", detail:[], tips:"即时关注司机情绪！！！！", alwaysOpen:true, amap:"https://surl.amap.com/6W78td8AaC8", official:""},
+        {title:"知味轩岳城小厨(普州大道南段店)", type:"川菜馆 · 午餐", time:"13:30 - 14:30", budget:"约 ¥41/人", stay:"预计 14:30 回酒店", reason:"抵达安岳后的第一餐，位置在柠都新城一带，适合作为下午出发前的补给点。", detail:["大众点评信息：★★★★☆ 4.6，约 ¥41/人，柠都新城川菜馆，地址信息为普洲大道美林湾。","行程上建议控制用餐节奏，预计两点半回酒店，为下午三点前往毗卢洞方向留出整理和上车时间。"], alwaysOpen:true, links:[{label:"大众点评", url:"https://m.dianping.com/shopinfo/H7DiFkVurH42W4Oh?msource=Appshare2021&utm_source=shop_share&shoptype=10&shopcategoryid=4467&cityid=1681&isoversea=0", primary:true}]},
+        {title:"毗卢洞", type:"石窟参访", time:"15:00 - 17:00", noteLabel:"交通", note:"安岳锦江宾馆(安岳石窟数展中心店)-毗卢洞文物景区     约1小时车程（15:00-16:00）", budgetLabel:"营业时间", budget:"下午17:30关门", stay:"约停留1小时", image:"images/piludong.png", large:"images/piludong.png", reason:"从安岳锦江酒店数字中心出发，下午进入南线石窟段，重点关注毗卢洞石刻造像及水月观音相关资料。", detail:["行程动线：安岳锦江酒店数字中心-毗卢洞。出发时间为下午三点，预计下午四点左右进入参访节奏。交通方式仍为宋姐的专车。","毗卢洞位于安岳县城东南的石羊镇赤云片区油坪村塔子山上，距县城约50公里。安岳至大足的公路横穿塔子山脚。宋代匠师们在此开凿龛窟20个，造像区长达118米。","现存摩崖石刻造像465尊，分别集中于毗卢洞、幽居洞、千佛洞、观音堂和玉皇阁内。有碑刻18通、崖墓10座、佛塔2座。据明代万历年间碑文追述，毗卢洞的石刻造像开创于五代后蜀，之后历代都进行过培修、补刻。","这里曾经是五代至北宋年间四川佛教密宗的主要道场之一。尤其是观音堂内雕刻的那尊“水月观音”，群众称她“紫竹观音”。另外，毗卢洞、幽居洞雕刻的密宗第五代祖师柳本尊造像也别具特色。"], tips:"下午参访建议重点看水月观音、柳本尊相关造像；现场材料较长，可先看重点龛窟，再回到资料链接补读。", links:[{label:"高德地图", url:"https://surl.amap.com/7RGqkBs1gRg", primary:true},{label:"图片资料", url:"https://www.sckg.com/diwupi/2179.html"},{label:"水月观音", url:"https://mp.weixin.qq.com/s/4H-qtyKBva0ByUNOTcoL_Q"}]}
+        ,{title:"华严洞", type:"石窟参访", time:"17:00 - 18:00", noteLabel:"交通", note:"毗卢洞-华严洞     约20分钟车程（17:00-17:20）", budgetLabel:"营业时间", budget:"下午18:00关门（17:30停止售票）", stay:"约停留半小时", image:"images/huayandong.png", large:"images/huayandong.png", reason:"华严洞是安岳石刻开窟造像中规模最大、保存最完整的一组，释、道、儒同窟造像，题材丰富，适合作为南线石窟参访的重点收束。", detail:["华严洞位于安岳县石羊镇箱盖山上，洞窟高6.2米，宽10.1米，深11.3米，是释、道、儒同窟造像，题材达39种。","其中，正壁刻5.2米高的“华严三圣”造像，左右窟壁并排有“十大菩萨”坐像，其面部表情生动细腻，同时布局严谨，造型奇妙，动静结合，虚实得体，是安岳石刻开窟造像中规模最大，也是保存最完整的一组。"], links:[{label:"高德地图", url:"https://surl.amap.com/6W78td8AaC8", primary:true},{label:"图片", url:"https://www.sckg.com/diliupi/2176.html"},{label:"华严洞详解", url:"https://mp.weixin.qq.com/s/OOhljSwMtM8iBK-5n05_lg"}]}
+        ,{title:"茗山寺", type:"石窟参访", time:"18:00 - 19:00", noteLabel:"交通", note:"华严洞-茗山寺     约30分钟车程（18:00-18:30）", budgetLabel:"营业时间", budget:"不买门票", stay:"约停留半小时", image:"images/mingshansi.png", large:"images/mingshansi.png", reason:"茗山寺摩崖造像地理位置突出，南宋造像题材丰富，至今香火旺盛，是安岳南线晚间段落中兼具石窟遗存与在地信仰气息的一站。", detail:["茗山寺摩崖造像位于四川省资阳市安岳县顶新乡民乐村，东面毗邻重庆大足区。现存窟龛12个，造像主要开凿于南宋。","题材有毗卢遮那佛、十大明王、观音、大势至、文殊、普贤等。寺内清代乾隆六十年（1795年）题刻记载：“茗山寺自岷山蜿蜒而来，层峦耸翠，俨如猛虎状，故曰虎头寺。”","由于地理位置和形式的突出，至今仍有旺盛香火，寺内建筑与龛檐为近年恢复。"], introImage:"images/mingshansi-intro.png", introImageAlt:"茗山寺图片介绍", links:[{label:"高德地图", url:"https://surl.amap.com/6W78td8AaC8", primary:true},{label:"图片", url:"https://www.sckg.com/diliupi/2178.html"},{label:"茗山寺详解", url:"https://baike.baidu.com/tashuo/browse/content?id=7e4db7414c3e614e5dd90ce4"}]}
+        ,{title:"明奇大酒店", type:"晚餐 · 家常菜", time:"19:20 - 20:00", noteLabel:"交通", note:"茗山寺-明奇大酒店     约20分钟车程", budgetLabel:"人均", budget:"约 ¥57/人", stay:"用餐约40分钟", reason:"石羊镇家常菜餐厅，作为南线石窟参访后的晚餐落点，适合快速补给并衔接返回安岳锦江酒店。", detail:["大众点评信息：★★★★☆ 4.0，约 ¥57/人，石羊镇家常菜，地址为科教路111号。","用餐时间大约 19:20-20:00。晚餐后从明奇大酒店返回安岳锦江酒店，预计用时约1小时。"], alwaysOpen:true, links:[{label:"大众点评", url:"https://m.dianping.com/shopinfo/H2Cf2V7WOxA92tfT?msource=Appshare2021&utm_source=shop_share&shoptype=10&shopcategoryid=1783&cityid=1681&isoversea=0", primary:true}]}
+      ]}
+    ];
+
+    const html = itinerary.map(day => `
+      <section class="day" id="${day.id}" data-day-section>
+        <div class="day-head"><div><h2>${day.title}</h2><p>${day.subtitle}</p></div><span class="day-chip">${day.chip}</span></div>
+        <div class="timeline">${day.places.map(place => `
+          <article class="card ${place.alwaysOpen ? "open" : ""}">
+            ${place.image ? `<button class="photo-btn" type="button" data-img="${place.large || place.image}" aria-label="放大查看${place.title}图片"><img class="photo" src="${place.image}" alt="${place.title}"></button>` : ""}
+            <div class="card-body">
+              <div class="kicker"><span class="tag">${place.type}</span><span class="time">${place.time}</span></div>
+              <h3 class="title">${place.title}</h3><p class="reason">${place.reason}</p>
+              ${place.note ? `<div class="meta"><div class="box"><span>${place.noteLabel || "信息"}</span><strong>${place.note}</strong></div></div>` : ""}
+              ${(() => { const metaItems = [place.hideBudget ? "" : `<div class="box"><span>${place.budgetLabel || "预算"}</span><strong>${place.budget}</strong></div>`, place.hideStay ? "" : `<div class="box"><span>${place.stayLabel || "停留时间"}</span><strong>${place.stay}</strong></div>`].filter(Boolean); return metaItems.length ? `<div class="meta">${metaItems.join("")}</div>` : ""; })()}
+              <div class="detail"><div class="detail-inner"><div class="detail-content">${place.detail.map(p => `<p>${p}</p>`).join("")}${place.introImage ? `<button class="photo-btn" type="button" data-img="${place.introImage}" aria-label="放大查看${place.introImageAlt || place.title + "介绍"}图片"><img class="photo" src="${place.introImage}" alt="${place.introImageAlt || place.title + "介绍"}"></button>` : ""}${place.tips ? `<div class="tips"><strong>Tips</strong>${place.tips}</div>` : ""}</div></div></div>
+              <div class="actions">${(place.links || [{label:"高德地图", url:place.amap, primary:true},{label:"官网", url:place.official}]).filter(link => link.url).map((link, index) => `<a class="link ${link.primary || index === 0 ? "primary" : ""}" href="${link.url}" target="_blank" rel="noopener">${link.label}</a>`).join("")}</div>
+              ${place.alwaysOpen ? "" : `<button class="expand" type="button" data-expand aria-expanded="false"><span class="more">展开讲解</span><span class="less">收起讲解</span></button>`}
+            </div>
+          </article>`).join("")}</div>
+      </section>`).join("");
+    document.querySelector("#itinerary").innerHTML = html;
+
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem("travel-theme");
+    if (savedTheme) root.dataset.theme = savedTheme;
+    document.querySelector("[data-theme-toggle]").addEventListener("click", () => {
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const current = root.dataset.theme || (prefersDark ? "dark" : "light");
+      const next = current === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      localStorage.setItem("travel-theme", next);
+    });
+
+    document.addEventListener("click", event => {
+      const expand = event.target.closest("[data-expand]");
+      if (expand) {
+        const card = expand.closest(".card");
+        const isOpen = card.classList.toggle("open");
+        expand.setAttribute("aria-expanded", String(isOpen));
+      }
+      const photo = event.target.closest("[data-img]");
+      if (photo) openLightbox(photo.dataset.img);
+    });
+
+    const lightbox = document.querySelector("[data-lightbox]");
+    const lightboxImg = document.querySelector("[data-lightbox-img]");
+    function openLightbox(src){lightboxImg.src=src;lightbox.classList.add("show");lightbox.setAttribute("aria-hidden","false");document.body.classList.add("no-scroll")}
+    function closeLightbox(){lightbox.classList.remove("show");lightbox.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");lightboxImg.src=""}
+    document.querySelector("[data-close]").addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", event => { if (event.target === lightbox) closeLightbox(); });
+    document.addEventListener("keydown", event => { if (event.key === "Escape" && lightbox.classList.contains("show")) closeLightbox(); });
+
+    const navLinks = document.querySelectorAll(".nav a");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        navLinks.forEach(link => link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`));
+      });
+    }, { rootMargin:"-35% 0px -55% 0px", threshold:0 });
+    document.querySelectorAll("[data-day-section]").forEach(section => observer.observe(section));
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
